@@ -61,9 +61,9 @@ Wait till all the installations are ran completely, till you see the `You:` prom
 ## Sample Questions to Ask
 
 You can try asking the following questions to test the chatbot's capabilities. The chatbot is, however, not limited to only the below questions.
-* `What is my total sales?`
-* `Calculate the RoAS (Return on Ad Spend).`
-* `Which product had the highest CPC (Cost Per Click)?`
+* `What is my total sales?` (Provided in the assignment)
+* `Calculate the RoAS (Return on Ad Spend).` (Provided in the assignment)
+* `Which product had the highest CPC (Cost Per Click)?` (Provided in the assignment)
 * `How many eligible products are there?`
 * `What was the total units ordered on 2023-01-01?`
 * `Show me the ad sales for item 12345 on 2023-01-05.`
