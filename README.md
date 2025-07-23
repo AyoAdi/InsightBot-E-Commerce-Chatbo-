@@ -1,6 +1,6 @@
 # InsightBot - An E-Commerce Chatbot
 
-This repository has the necessary files and instructions to set up and run the chatbot designed to answer questions about e-commerce data. 
+This repository has the necessary files and instructions to set up and run the chatbot designed to answer questions about e-commerce data.
 
 ## Project Overview
 
@@ -9,7 +9,7 @@ This chatbot uses a Large Language Model (LLM) to analyze company data spread ac
 * extracts the required information from the database
 * presents both the generated SQL query and the human-readable answer.
 
-## Installing and Running the Project 
+## Installing and Running the Project
 
 I have executed the entirety of this prpject in **Google Colab**, because of my familiarity with the platform, the fact that Google Collab uses Virtual Ennvironments, and direct integration with Google API Key system.
 
@@ -19,36 +19,35 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 
 2.  Set up the Colab envionment:
     * Set the runtime for the file. This usually happens automatically
-    * For much more complex queries,which can be more computaitonally intense, using GPU can be a much better option. Hence, change it to t4 in the runtime settings, which is much       preferrable for this project
-         <img width="533" height="442" alt="image" src="https://github.com/user-attachments/assets/04a82ce0-e314-4b66-a0d2-a85460e394f3" />
-         <img width="635" height="479" alt="image" src="https://github.com/user-attachments/assets/109816b2-c35f-4d04-9008-300781e6861a" />
+    * For much more complex queries,which can be more computaitonally intense, using GPU can be a much better option. Hence, change it to t4 in the runtime settings, which is much preferable for this project
+      ![image](https://github.com/user-attachments/assets/04a82ce0-e314-4b66-a0d2-a85460e394f3)
+      ![image](https://github.com/user-attachments/assets/109816b2-c35f-4d04-9008-300781e6861a)
     * Click `Save`.
 
 3.  **Create the `run_agent.py` file:**
-    * Load the run_agent.py script in the google collab. 
-    * Run the single cell that is in the file. The presence of `%%writefile run_agent.py` in the code means that it is saved to the temporary stsorage of the notebook, which is          essential for terminal access
+    * Load the run_agent.py script in the google collab.
+    * Run the single cell that is in the file. The presence of `%%writefile run_agent.py` in the code means that it is saved to the temporary stsorage of the notebook, which is essential for terminal access
     * Run this cell. You will see `Writing run_agent.py` as output, and a `run_agent.py` file will appear in your Colab session's file browser (left sidebar).
-       <img width="390" height="252" alt="image" src="https://github.com/user-attachments/assets/63ba1f3e-c6c6-4cd4-a364-3cf4b04ca0f6" />
+      ![image](https://github.com/user-attachments/assets/63ba1f3e-c6c6-4cd4-a364-3cf4b04ca0f6)
 
 4.  **Open the Colab Terminal:**
     * In the Colab menu, go to `Tools` > `Terminal` > `New terminal`. You can also access the terminal using the `terminal` button at the bottom.
-      <img width="589" height="158" alt="image" src="https://github.com/user-attachments/assets/251785fd-bd93-458c-906b-930de69ee9f5" />
+      ![image](https://github.com/user-attachments/assets/251785fd-bd93-458c-906b-930de69ee9f5)
     * A new terminal window will open either at the bottom or towards the right.
-      <img width="849" height="262" alt="image" src="https://github.com/user-attachments/assets/8835d9cf-b40f-4f50-8897-b7370c693830" />
+      ![image](https://github.com/user-attachments/assets/8835d9cf-b40f-4f50-8897-b7370c693830)
 
 5.  **Set your Gemini API Key as an Environment Variable:**
     * In the terminal, type the following command and press `Enter`. **Replace `{Insert your API key value here, within quotations only}` with your actual Gemini API key.**
         ```bash
         export GOOGLE_API_KEY="{Insert your API key value here, within quotations only}"
         ```
-       <img width="530" height="100" alt="image" src="https://github.com/user-attachments/assets/30105c9f-0b63-4b7d-86eb-7b09ecbbeff3" />
+      ![image](https://github.com/user-attachments/assets/30105c9f-0b63-4b7d-86eb-7b09ecbbeff3)
     * Note that the API key should be set as your secret key in the google collab environment
-      <img width="643" height="517" alt="image" src="https://github.com/user-attachments/assets/1cb3b502-45d5-4ada-88cf-3414ca48307e" />
-
+      ![image](https://github.com/user-attachments/assets/1cb3b502-45d5-4ada-88cf-3414ca48307e)
     * This sets the API key for the current terminal session.
     * If you don't know how to generate your own API key, refer to the vidoe link I have provided down below:
-      ``` bash
-      https://www.youtube.com/watch?v=6BRyynZkvf0
+      ```bash
+      [https://www.youtube.com/watch?v=6BRyynZkvf0](https://www.youtube.com/watch?v=6BRyynZkvf0)
       ```
 
 6.  **Run the Chatbot Script:**
@@ -60,11 +59,10 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 ## Interacting with the Chatbot
 
 Wait till all the installations and dependencies are run completely, till you see the `You:` prompt.
-   <img width="534" height="181" alt="image" src="https://github.com/user-attachments/assets/197aa19d-4c92-40c9-9d39-ae9b4c28e919" />
+  ![image](https://github.com/user-attachments/assets/197aa19d-4c92-40c9-9d39-ae9b4c28e919)
 * **Type your question** at that prompt and press `Enter`.
 * The chatbot will process your request, generate an SQL query, get the answer, and display it in the terminal.
-   <img width="534" height="310" alt="image" src="https://github.com/user-attachments/assets/3d82faa3-24ff-47f3-b451-a2bff34bcdde" />
-
+  ![image](https://github.com/user-attachments/assets/3d82faa3-24ff-47f3-b451-a2bff34bcdde)
 * To **exit** the chatbot, type `exit` and press `Enter`. You can also use the keybinds `Ctrl+C`(`Cmd+C` if you are using a macbook)
 
 ## Sample Questions to Ask
