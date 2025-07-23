@@ -21,7 +21,7 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
     * Set the runtime for the file. This usually happens automatically
     * For much more complex queries,which can be more computaitonally intense, using GPU can be a much better option. Hence, change it to t4 in the runtime settings, which is much       preferable for this project
       
-      <img src="https://github.com/user-attachments/assets/0f5ee5f6-7c8a-4e9c-a4b7-0d91cd2c0e08" alt = "image" width="500px"/>
+      <img src="https://github.com/user-attachments/assets/459f8ef5-1758-4e02-ac3d-ee1ce164c2ec" alt="image" width="500px"/>
       
     * Click `Save`.
 
