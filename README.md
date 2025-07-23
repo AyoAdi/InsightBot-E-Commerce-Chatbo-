@@ -1,6 +1,6 @@
-                                                                  # InsightBot - An E-Commerce Chatbot
+# InsightBot - An E-Commerce Chatbot
 
-This repository has the necessary files and instructions to set up and run an AI-powered chatbot designed to answer questions about e-commerce data. This project was developed as part of the recruitment process of Anarix AI.
+This repository has the necessary files and instructions to set up and run the chatbot designed to answer questions about e-commerce data. 
 
 ## Project Overview
 
@@ -9,22 +9,16 @@ This chatbot uses a Large Language Model (LLM) to analyze company data spread ac
 * extracts the required information from the database
 * presents both the generated SQL query and the human-readable answer.
 
-## Important Features
+## Installing and Running the Project 
 
-* **Natural Language to SQL Conversion:** Utilizes an LLM to translate user questions into SQL queries.
-* **Data Extraction:** Fetches relevant information from a SQLite database.
-* **Human-Readable Responses:** Presents query results in an easy-to-understand format.
-* **Data Analysis:** Includes proper data analysis of the provided data.
-
-## Installation and Running the Project (using Google Colab Terminal)
-
-I have executed the entirety of this prpject in **Google Colab**, because of my familiarity with the platform, the fact that Google Collab uses Virtual Ennvironments, and direct integration with Google API key system.
+I have executed the entirety of this prpject in **Google Colab**, because of my familiarity with the platform, the fact that Google Collab uses Virtual Ennvironments, and direct integration with Google API Key system.
 
 **Steps to set up and run the chatbot:**
 
-1.  **Open a new Google Colab Notebook**
+1.  Open a new Google Colab Notebook
+<img width="1470" height="40" alt="image" src="https://github.com/user-attachments/assets/2eefd0cf-0086-44e2-a654-e57d5ceed251" />
 
-2.  **Setting up the Colab envionment:**
+2.  Set up the Colab envionment:
     * In the Colab menu, go to `Runtime` > `Change runtime type`.
     * Under `Hardware accelerator`, select **`T4 GPU`**. This is because for much more complex queries,which can be more computaitonally intense, using GPU can be a much                 better option. Using the basic terminal works as well.
     * Click `Save`.
@@ -53,7 +47,7 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 
 ## Interacting with the Chatbot
 
-Wait till all the installations are ran completely, till you see the `You:` prompt.
+Wait till all the installations and dependencies are run completely, till you see the `You:` prompt.
 * **Type your question** at that prompt and press `Enter`.
 * The chatbot will process your request, generate an SQL query, get the answer, and display it in the terminal.
 * To **exit** the chatbot, type `exit` and press `Enter`. You can also use the keybinds `Ctrl+C`(`Cmd+C` if you are using a macbook)
