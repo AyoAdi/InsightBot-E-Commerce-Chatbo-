@@ -14,7 +14,7 @@ This chatbot uses a Large Language Model (LLM) to analyze hypothetical company d
 * **Natural Language to SQL Conversion:** Utilizes an LLM to translate user questions into SQL queries.
 * **Data Extraction:** Fetches relevant information from a SQLite database.
 * **Human-Readable Responses:** Presents query results in an easy-to-understand format.
-* **Data Analysis:** Includes proper data analysis of the provided data
+* **Data Analysis:** Includes proper data analysis of the provided data.
 
 ## Installation and Running the Project (using Google Colab Terminal)
 
