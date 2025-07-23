@@ -27,7 +27,6 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 3.  **Create the `run_agent.py` file:**
     * Load the run_agent.py script in the google collab. 
     * Run the single cell that is in the file. The presence of `%%writefile run_agent.py` in the code means that it is saved to the temporary stsorage of the notebook, which is          essential for terminal access
-       <img width="396" height="43" alt="image" src="https://github.com/user-attachments/assets/1f49dacd-92c1-4c77-9381-d6354266352b" />
     * Run this cell. You will see `Writing run_agent.py` as output, and a `run_agent.py` file will appear in your Colab session's file browser (left sidebar).
        <img width="390" height="252" alt="image" src="https://github.com/user-attachments/assets/63ba1f3e-c6c6-4cd4-a364-3cf4b04ca0f6" />
 
