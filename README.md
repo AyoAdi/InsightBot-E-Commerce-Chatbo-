@@ -24,9 +24,9 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 
 1.  **Open a new Google Colab Notebook**
 
-2.  **Configure Colab Runtime:**
+2.  **Setting up the Colab envionment:**
     * In the Colab menu, go to `Runtime` > `Change runtime type`.
-    * Under `Hardware accelerator`, select **`T4 GPU`**. This is because for much more complex queries, the presence of GPU can be more computationally efficient. Using the basic        terminal also works well
+    * Under `Hardware accelerator`, select **`T4 GPU`**. This is because for much more complex queries,which can be more computaitonally intense, using GPU can be a much                 better option. Using the basic terminal works as well.
     * Click `Save`.
 
 3.  **Create the `run_agent.py` file:**
