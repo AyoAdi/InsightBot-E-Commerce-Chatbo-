@@ -1,6 +1,6 @@
 # InsightBot - An E-Commerce Chatbot
 
-This repository contains the necessary files and instructions to set up and run an AI-powered chatbot designed to answer questions about e-commerce data. This project was developed as part of the recruitment process by Anarix AI.
+This repository contains the necessary files and instructions to set up and run an AI-powered chatbot designed to answer questions about e-commerce data. This project was developed as part of the recruitment process of Anarix AI.
 
 ## Project Overview
 
