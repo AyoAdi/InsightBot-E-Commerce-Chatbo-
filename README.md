@@ -25,7 +25,7 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
       
     * Click `Save`.
 
-3.  **Create the `run_agent.py` file:**
+3.  **Working with `run_agent.py` file:**
     * Load the run_agent.py script in the google collab.
     * Run the single cell that is in the file. The presence of `%%writefile run_agent.py` in the code means that it is saved to the temporary stsorage of the notebook, which is essential for terminal access
     * Run this cell. You will see `Writing run_agent.py` as output, and a `run_agent.py` file will appear in your Colab session's file browser (left sidebar).
