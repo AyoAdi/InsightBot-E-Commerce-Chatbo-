@@ -56,7 +56,7 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
     * This sets the API key for the current terminal session.
     * If you don't know how to generate your own API key, refer to the vidoe link I have provided down below:
       ```bash
-      [https://www.youtube.com/watch?v=6BRyynZkvf0](https://www.youtube.com/watch?v=6BRyynZkvf0)
+      https://www.youtube.com/watch?v=6BRyynZkvf0]
       ```
 
 6.  **Run the Chatbot Script:**
