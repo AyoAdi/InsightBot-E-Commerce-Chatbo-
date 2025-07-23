@@ -56,7 +56,7 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 Wait till all the installations are ran completely, till you see the `You:` prompt.
 * **Type your question** at that prompt and press `Enter`.
 * The chatbot will process your request, generate an SQL query, get the answer, and display it in the terminal.
-* To **exit** the chatbot, type `exit` and press `Enter`. You can also use the keybinds Ctrl+C(Cmd+C if you are using a macbook)
+* To **exit** the chatbot, type `exit` and press `Enter`. You can also use the keybinds `Ctrl+C`(`Cmd+C` if you are using a macbook)
 
 ## Sample Questions to Ask
 
