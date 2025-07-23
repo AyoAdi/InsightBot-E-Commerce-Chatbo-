@@ -16,7 +16,6 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 **Steps to set up and run the chatbot:**
 
 1.  Open a new Google Colab Notebook
-<img width="1470" height="40" alt="image" src="https://github.com/user-attachments/assets/2eefd0cf-0086-44e2-a654-e57d5ceed251" />
 
 2.  Set up the Colab envionment:
     * In the Colab menu, go to `Runtime` > `Change runtime type`.
@@ -38,6 +37,10 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
         export GOOGLE_API_KEY="{Insert your API key value here, within quotations only}"
         ```
     * This sets the API key for the current terminal session.
+    * If you don't know how to generate your own API key, refer to the vidoe link I have provided down below:
+      ``` bash
+      https://www.youtube.com/watch?v=6BRyynZkvf0
+      ```
 
 6.  **Run the Chatbot Script:**
     * In the **same terminal window**, type the following command and press `Enter`:
