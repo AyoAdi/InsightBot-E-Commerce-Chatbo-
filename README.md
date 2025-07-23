@@ -69,12 +69,12 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 
 Wait till all the installations and dependencies are run completely, till you see the `You:` prompt.
 
-  <img src="https://github.com/user-attachments/assets/197aa19d-4c92-40c9-9d39-ae9b4c28e919" alt="image" width="500px">
+<img src="https://github.com/user-attachments/assets/197aa19d-4c92-40c9-9d39-ae9b4c28e919" alt="image" width="500px">
   
 * **Type your question** at that prompt and press `Enter`.
 * The chatbot will process your request, generate an SQL query, get the answer, and display it in the terminal.
   
-  <img src="https://github.com/user-attachments/assets/3d82faa3-24ff-47f3-b451-a2bff34bcdde" alt="image" width="500px">
+<img src="https://github.com/user-attachments/assets/3d82faa3-24ff-47f3-b451-a2bff34bcdde" alt="image" width="500px">
   
 * To **exit** the chatbot, type `exit` and press `Enter`. You can also use the keybinds `Ctrl+C`(`Cmd+C` if you are using a macbook)
 
