@@ -22,7 +22,7 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 
 **Steps to set up and run the chatbot:**
 
-1.  **Open a new Google Colab Notebook:**
+1.  **Open a new Google Colab Notebook**
 
 2.  **Configure Colab Runtime:**
     * In the Colab menu, go to `Runtime` > `Change runtime type`.
