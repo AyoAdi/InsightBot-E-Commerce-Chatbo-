@@ -19,8 +19,6 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
 
 2.  Set up the Colab envionment:
     * Set the runtime for the file. This usually happens automatically
-         <img width="386" height="249" alt="image" src="https://github.com/user-attachments/assets/28cfddeb-8f8a-4184-b87c-04a659aa8e35" />
-
     * For much more complex queries,which can be more computaitonally intense, using GPU can be a much better option. Hence, change it to t4 in the runtime settings, which is much       preferrable for this project
          <img width="533" height="442" alt="image" src="https://github.com/user-attachments/assets/04a82ce0-e314-4b66-a0d2-a85460e394f3" />
          <img width="635" height="479" alt="image" src="https://github.com/user-attachments/assets/109816b2-c35f-4d04-9008-300781e6861a" />
