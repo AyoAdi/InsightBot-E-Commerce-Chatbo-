@@ -33,11 +33,11 @@ I have executed the entirety of this prpject in **Google Colab**, because of my 
       <img src="https://github.com/user-attachments/assets/63ba1f3e-c6c6-4cd4-a364-3cf4b04ca0f6" alt="image" width="500px">
 
 4.  **Open the Colab Terminal:**
-    * In the Colab menu, go to `Tools` > `Terminal` > `New terminal`. You can also access the terminal using the `terminal` button at the bottom.
+    * Access access the terminal using the `terminal` button at the bottom.
       
       <img src="https://github.com/user-attachments/assets/251785fd-bd93-458c-906b-930de69ee9f5" alt="image" width="500px">
    
-    * A new terminal window will open either at the bottom or towards the right.
+    * A new terminal window will open either at the bottom or towards the right. You can adjust it in either place.
       
       <img src="https://github.com/user-attachments/assets/8835d9cf-b40f-4f50-8897-b7370c693830" alt="image" width="500px">
 
